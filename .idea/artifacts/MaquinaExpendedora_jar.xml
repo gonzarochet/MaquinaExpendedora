@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MaquinaExpendedora:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MaquinaExpendedora_jar</output-path>
+    <root id="archive" name="MaquinaExpendedora.jar">
+      <element id="module-output" name="MaquinaExpendedora" />
+    </root>
+  </artifact>
+</component>
