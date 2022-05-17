@@ -36,6 +36,7 @@ public class Main {
         int valor = 0;
         Cliente cliente = null;
         do {
+            System.out.println(" tendria que aparecer en MASTER");
             System.out.println("HOLA BIENVENIDO:");
             System.out.println("1. Ingresar al sistema");
             System.out.println("Pulse 0 (cero) para salir");
