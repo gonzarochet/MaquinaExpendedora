@@ -18,24 +18,25 @@ public class Main {
 
     public static void main(String[] args) {
 
-
-        /*
-        Cliente cliente = login();
-        MaquinaExpendedora[] maquina = menu0(cliente);
-        menu1(maquina,cliente);
-        */
+        //Cliente cliente = login();
+        // MaquinaExpendedora[] maquina = menu0(cliente);
+        //menu1(maquina,cliente);
 
         teclado = new Scanner(System.in);
         tecladoString = new Scanner(System.in);
+
+        Login login = new Login();
 
         teclado.close();
         tecladoString.close();
     }
 
     public static Cliente login() {
+        System.out.println("HOLAAA123123123132");
         int valor = 0;
         Cliente cliente = null;
         do {
+            System.out.println(" tendria que aparecer en MASTER");
             System.out.println("HOLA BIENVENIDO:");
             System.out.println("1. Ingresar al sistema");
             System.out.println("Pulse 0 (cero) para salir");
