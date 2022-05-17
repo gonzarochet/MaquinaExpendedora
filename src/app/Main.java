@@ -18,15 +18,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-
-        /*
-        Cliente cliente = login();
-        MaquinaExpendedora[] maquina = menu0(cliente);
-        menu1(maquina,cliente);
-        */
+        //Cliente cliente = login();
+        // MaquinaExpendedora[] maquina = menu0(cliente);
+        //menu1(maquina,cliente);
 
         teclado = new Scanner(System.in);
         tecladoString = new Scanner(System.in);
+
+        Login login = new Login();
 
         teclado.close();
         tecladoString.close();
